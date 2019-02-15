@@ -1,21 +1,22 @@
 @charset "UTF-8";
 /* Formatação Body*/
 body {
+    margin: 0px;
+    padding: 0px;
     font-family: sans-serif;
     display: grid; 
     grid-template-areas: "header header header" 
                          "main main main" 
                          "footer footer footer"; 
-    padding:0px;
-    /* grid-gap: 1rem; */
-    margin:0px;
-    background: url("../src/background-1.png") no-repeat left top;
+    background-image: url("../src/background-1.png");
     background-size: 100%;
+    background-attachment: fixed;
+    /* grid-gap: 1rem; */
 }
 /*Formatação Imagem*/
 body img#icone-menu {
     position: relative;
-    top: -185px;
+    top: -181px;
     left: 952px;
 }
 /* Formação Cabeçalho */
@@ -33,7 +34,7 @@ body img#icone-menu {
    margin-top: -40px; 
    margin-left: 10px; 
    /* top: 100px; */
-   position: relative; 
+   position: absolute; 
 }
 /* Formatação Menu */
 nav#menu-superior{
@@ -71,7 +72,7 @@ nav#menu-superior li:hover{
     color: darkmagenta;
     text-decoration-line: line-through;
     font-family: 'Nova Flat', cursive;
-    margin-top: 100px;
+    margin-top: 150px;
 } 
 /* .o-aside{
     font-size: 20px; 
