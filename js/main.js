@@ -1,4 +1,5 @@
 // hello
+//Função para mudar imagem que fica acima do menu, meramente decorativa
 function iconeMenu(tipo){
     if (tipo == 1){
         _left = "952px";

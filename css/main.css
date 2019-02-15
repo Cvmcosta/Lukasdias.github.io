@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Formatação Body*/
 body {
     font-family: sans-serif;
     display: grid; 
@@ -11,12 +12,13 @@ body {
     background: url("../src/background-1.png") no-repeat left top;
     background-size: 100%;
 }
+/*Formatação Imagem*/
 body img#icone-menu {
     position: relative;
     top: -185px;
     left: 952px;
 }
-
+/* Formação Cabeçalho */
 .o-header {
     /* font-family: 'Indie Flower', cursive; */
     /* background-color: darkmagenta; */
@@ -25,6 +27,7 @@ body img#icone-menu {
     grid-area: header;
     /* box-shadow: 1px 1px 3px black;  */
 }
+/* Formatação Logo do cabeçalho */
 .o-header img#logo{
    margin-bottom: -110px;
    margin-top: -40px; 
@@ -32,6 +35,7 @@ body img#icone-menu {
    /* top: 100px; */
    position: relative; 
 }
+/* Formatação Menu */
 nav#menu-superior{
     display: block;
 }
@@ -56,6 +60,7 @@ nav#menu-superior li:hover{
    /* background-color: darkmagenta; */
    transition: color 1s;
 } 
+/* Formatação da região central do site */
 .o-main { 
     font-family: 'Roboto Mono', monospace;
     text-align: center;
@@ -73,7 +78,7 @@ nav#menu-superior li:hover{
     grid-area: aside;
     color: white;
     /* background-color: darkmagenta;  */
-
+/* Formatação do Rodapé */
 .o-footer { 
     color: darkmagenta;
     font-family: 'Nova Flat', cursive;
