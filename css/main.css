@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body {
+    display: grid; 
+    grid-template-areas: "header header header" 
+                         "main main main" 
+                         "footer footer footer"; 
+    padding:0px;
+    grid-gap: 1rem;
+    margin:0px;
+    background: url("../src/background-1.png") no-repeat fixed left top;
+    background-size: 100%;
+}
+p {
+    font-family: 'Nova Flat', cursive;
+}
+
+.o-header {
+    font-family: 'Indie Flower', cursive;
+    /* background-color: darkmagenta; */
+    /* color: darkmagenta; */
+    text-align: center;
+    grid-area: header;
+    /* box-shadow: 1px 1px 3px black;  */
+}
+.o-header h1{
+    color: white;
+    font-size: 20pt;
+}
+nav#menu-superior{
+    display: block;
+}
+nav#menu-superior ul{
+   list-style: none;
+   position: absolute;
+   top: -5px;
+   left: 900px;
+}
+nav#menu-superior li {
+   color: wheat;
+   font-size: 20px;
+   display: inline-block;
+   text-align: center;
+   /* box-shadow: 1px 1px 1px #606060; */
+   padding: 5px;
+}
+nav#menu-superior li:hover{
+    text-decoration-line: line-through;
+    color: rgb(255, 8, 243);
+   /* background-color: darkmagenta; */
+   transition: color 1s; 
+} 
+.o-main { 
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 12px;
+    grid-area: main; 
+}
+.o-main h1 {
+    margin-top: 250px;
+} 
+/* .o-aside{
+    font-size: 20px; 
+    grid-area: aside;
+    color: white;
+    /* background-color: darkmagenta;  */
+
+.o-footer { 
+    font-family: Arial, sans-serif;
+    grid-area: footer;
+    text-align: center; 
+}
+
